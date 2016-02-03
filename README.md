@@ -11,7 +11,11 @@ Extract these files :
 ### Inside iframe 
 ```html
 <script src="iframe-resizer.min.js"></script>
+<script>
+  var iframeResizer = new IframeResizer("http://example.com");
+</script>
 ```
+`http://example.com` being the domain of the iframe (authorized origin)
 
 ### Inside the page containing the iframe 
 ```html
